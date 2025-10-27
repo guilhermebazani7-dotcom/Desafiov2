@@ -3,8 +3,16 @@ saldos = {}
 
 
 def Cadastro():
+    print("CADASTRO")
+    nome = input("Digite o nome de usuário: ")
+    senha = input("Digite a senha: ")
 
-def Login():
+    if nome in usuarios:
+        print("Usuário já cadastrado. Escolha outro nome.")
+        return
+    usuarios[nome] = senha
+    saldos[nome] = {"corrente": 0.0, "poupanca": 0.0}
+    print(f"Usuário '{nome}' cadastrado com sucesso!")
 
 def acoes(nome):
     while True:
