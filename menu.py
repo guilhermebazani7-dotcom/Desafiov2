@@ -28,6 +28,7 @@ def Login():
         print("Senha incorreta. Tente novamente.")
     else:
         print("Usuário não encontrado. Faça o cadastro primeiro.")
+
 def Acoes():
 
 while True:
