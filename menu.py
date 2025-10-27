@@ -1,5 +1,3 @@
-from acoes import acoes
-
 usuarios = {}
 saldos = {}
 
