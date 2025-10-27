@@ -40,9 +40,9 @@ while True:
     escolha = input("Escolha uma opção: ")
 
     if escolha == "1":
-        cadastro()
+        Cadastro()
     elif escolha == "2":
-        login()
+        Login()
     elif escolha == "3":
         print("Encerrando o sistema. Até mais!")
         break
