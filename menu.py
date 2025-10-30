@@ -89,7 +89,7 @@ while True:
     escolha = input("Escolha uma opção: ")
 
     if escolha == "1":
-        cadastro()
+        Cadastro()
     elif escolha == "2":
         login()
     elif escolha == "3":
